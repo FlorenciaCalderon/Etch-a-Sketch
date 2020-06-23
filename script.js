@@ -8,9 +8,9 @@ for (i = 0; i < gridItem.length; i++) {
 
 
 function createGrid(){
-let columns=prompt("Please enter the number of columns", "10");
-let rows=prompt("Please enter the number of rows", "10");
-let size="40px ";
+let columns=prompt("Please enter the number of columns", "20");
+let rows=prompt("Please enter the number of rows", "20");
+let size="20px ";
 gridContainer.style.gridTemplateColumns=size.repeat(columns);
 gridContainer.style.gridTemplateRows=size.repeat(rows);
 gridContainer.innerHTML="";
